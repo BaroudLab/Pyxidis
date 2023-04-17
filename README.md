@@ -66,4 +66,4 @@ The folder **Example_image** contains all files to run the entire image analysis
   - 221212_6_napari.tif => file to drag and drop in napari (different channel order)
   
 ### Code to reproduce figure - in folder **Code_figures**
-Scripts to reproduce main pannels from the article. Use data in folder **Data** to go with it.
+Scripts to reproduce main pannels from the article. Use data ... (PUT LINK HERE to repository) in folder **Data_figures** to go with it.
