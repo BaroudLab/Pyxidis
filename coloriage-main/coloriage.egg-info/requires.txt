@@ -1,0 +1,4 @@
+bokeh
+networkx
+numpy
+pip

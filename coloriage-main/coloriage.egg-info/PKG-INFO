@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: coloriage
+Version: 0.0.1
+Summary: Manual selection of regions from networkX graph
+Home-page: https://github.com/microfluidix/graphs-on-chip
+Author: Valentin Bonnet, Gustave Ronteix
+Author-email: gustave.ronteix@pasteur.fr
+License-File: LICENSE
