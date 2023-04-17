@@ -20,7 +20,8 @@ This repository contains all steps to reproduce image analysis pipeline describe
 
 - 1. Cut images in pieces for parallel segmentation using CellPose on GPUs / reconstruction of segmented image:
 
-**1-Saucisson_preprocessing.ipynb**: Notebook to cut image in pieces for easier segmentation with Cellpose and reconstruction of the segmented image
+**1-Saucisson_preprocessing.ipynb**: Notebook to cut image in pieces for easier segmentation with Cellpose and reconstruction of the segmented image.
+**scripts** contains useful functions for this step.
 
 - 2. Classify cells using Neural Network:
 
@@ -33,6 +34,7 @@ This repository contains all steps to reproduce image analysis pipeline describe
 - 4. Basic data analysis and distance to structures of the liver:
 
 **4-Example_image_analysis.ipynb**: Removing disrupted regions and some typical spatial analysis
+**scripts** contains useful functions for this step.
 
 - 5. Graph representation of the tissue and analysis of cells neighborhood:
 
