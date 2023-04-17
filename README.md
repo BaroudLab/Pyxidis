@@ -14,27 +14,27 @@ Install *Coloriage* graphical tool by navigating in the folder called "coloriage
 # Content description
 This repository contains all steps to reproduce image analysis pipeline described in figure 2 of the article. Data to run these example can be dowloaded using ... (PUT LINK HERE to repository).
 ### Image analysis steps - in folder **Image_processing**
-0. Training Neural Network for cell classification based on membrane staining:
+- 0. Training Neural Network for cell classification based on membrane staining:
 
 **0-Training_network.ipynb**: Notebook to train squeezenet neural network (an example dataset is given in Example_dataset_CD45)
 
-1. Cut images in pieces for parallel segmentation using CellPose on GPUs / reconstruction of segmented image:
+- 1. Cut images in pieces for parallel segmentation using CellPose on GPUs / reconstruction of segmented image:
 
 **1-Saucisson_preprocessing.ipynb**: Notebook to cut image in pieces for easier segmentation with Cellpose and reconstruction of the segmented image
 
-2. Classify cells using Neural Network:
+- 2. Classify cells using Neural Network:
 
 **2-Classifying_cells.ipynb**: Notebook to use neural network on a set of images (a bunch of image to try is given in Example_cell_classification_CD45)
 
-3. Threshold for nuclear staining and gather all data:
+- 3. Threshold for nuclear staining and gather all data:
 
 **3-Generating_final_data_file.ipynb**: Classification of nuclear signal with thresholding and concatenating with data from Neural Network classification
 
-4. Basic data analysis and distance to structures of the liver
+- 4. Basic data analysis and distance to structures of the liver
 
 **4-Example_image_analysis.ipynb**: Removing disrupted regions and some typical spatial analysis
 
-5. Graph representation of the tissue and analysis of cells neighborhood
+- 5. Graph representation of the tissue and analysis of cells neighborhood
 
 **5-Contact_on_graph_vs_random.ipynb**: Building graph and extracting information on neighbor composition
 
@@ -57,12 +57,12 @@ The folder **Example_image** contains all files to run the entire image analysis
   - 221212_6_labeled.tif: image with segmentation after reconstruction
   - 221212_6_labeled.csv: cell positions and average intensity on different channels in nucleus masks
   - CD45_NN_classification.csv: result of neural network classification of CD45
-	- Kit_NN_classification: result of neural network classification of KIT
+  - Kit_NN_classification: result of neural network classification of KIT
   - 221212_6_classified.csv: result of cell classification
-	- border_selection: manual selection of border cells with Coloriage
+  - border_selection: manual selection of border cells with Coloriage
   - vessels_selection: manual selection of vessel with Coloriage
-	- cells_to_remove: autofluorescent cells and disrupted regions manually selected with Coloriage
-	- 221212_6_classified_corrected.csv: result of cell classification after removing autofluorescent cells and disrupted regions
+  - cells_to_remove: autofluorescent cells and disrupted regions manually selected with Coloriage
+  - 221212_6_classified_corrected.csv: result of cell classification after removing autofluorescent cells and disrupted regions
   - 221212_6_napari.tif: file to drag and drop in napari (different channel order)
   
 ### Code to reproduce figure - in folder **Code_figures**
