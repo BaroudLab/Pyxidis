@@ -11,7 +11,7 @@ conda create --name FL_image_analysis python=3.8
 Install required packages listed in requirements.txt
 Install *Coloriage* graphical tool by navigating in the folder called "coloriage-main" and using command "pip install ."
 
-# Content description
+# Description of repository content
 This repository contains all steps to reproduce image analysis pipeline described in figure 2 of the article. Data to run these example can be dowloaded using ... (PUT LINK HERE to repository).
 ### Image analysis steps - in folder **Image_processing**
 - 0. Training Neural Network for cell classification based on membrane staining:
@@ -30,11 +30,11 @@ This repository contains all steps to reproduce image analysis pipeline describe
 
 **3-Generating_final_data_file.ipynb**: Classification of nuclear signal with thresholding and concatenating with data from Neural Network classification
 
-- 4. Basic data analysis and distance to structures of the liver
+- 4. Basic data analysis and distance to structures of the liver:
 
 **4-Example_image_analysis.ipynb**: Removing disrupted regions and some typical spatial analysis
 
-- 5. Graph representation of the tissue and analysis of cells neighborhood
+- 5. Graph representation of the tissue and analysis of cells neighborhood:
 
 **5-Contact_on_graph_vs_random.ipynb**: Building graph and extracting information on neighbor composition
 
