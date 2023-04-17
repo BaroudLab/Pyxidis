@@ -16,7 +16,7 @@ This repository contains all steps to reproduce image analysis pipeline describe
 ### Image analysis steps - in folder **Image_processing**
 - 0. Training Neural Network for cell classification based on membrane staining:
 
-**0-Training_network.ipynb**: Notebook to train squeezenet neural network (an example dataset is given in Example_dataset_CD45)
+**0-Training_network.ipynb**: Notebook to train squeezenet neural network (an example dataset is given in (PUT LINK HERE to repository) folder  **Example_dataset_CD45**)
 
 - 1. Cut images in pieces for parallel segmentation using CellPose on GPUs / reconstruction of segmented image:
 
@@ -25,20 +25,20 @@ This repository contains all steps to reproduce image analysis pipeline describe
 
 - 2. Classify cells using Neural Network:
 
-**2-Classifying_cells.ipynb**: Notebook to use neural network on a set of images (a bunch of image to try is given in Example_cell_classification_CD45)
+**2-Classifying_cells.ipynb**: Notebook to use neural network on a set of images (a bunch of image to try is given in (PUT LINK HERE to repository) folder **Example_cell_classification_CD45**).
 
 - 3. Threshold for nuclear staining and gather all data:
 
-**3-Generating_final_data_file.ipynb**: Classification of nuclear signal with thresholding and concatenating with data from Neural Network classification
+**3-Generating_final_data_file.ipynb**: Classification of nuclear signal with thresholding and concatenating with data from Neural Network classification.
 
 - 4. Basic data analysis and distance to structures of the liver:
 
-**4-Example_image_analysis.ipynb**: Removing disrupted regions and some typical spatial analysis
+**4-Example_image_analysis.ipynb**: Removing disrupted regions and some typical spatial analysis.
 **scripts** contains useful functions for this step.
 
 - 5. Graph representation of the tissue and analysis of cells neighborhood:
 
-**5-Contact_on_graph_vs_random.ipynb**: Building graph and extracting information on neighbor composition
+**5-Contact_on_graph_vs_random.ipynb**: Building graph and extracting information on neighbor composition.
 
 ### Visualisation of initial image and classification
 
