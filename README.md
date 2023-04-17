@@ -52,18 +52,18 @@ The folders **2D_visualization** and **3D_visualization** contains example to ov
 
 The folder **Example_image** contains all files to run the entire image analysis pipeline on an example image (FL E12.5 with LHX2, CD45 and KIT)
 
-  - 221212_6.tif => original image
-  - saucisson_00 => pieces of original image with only nucleus / segmentation with Cellpose on each piece
-  - 221212_6_labeled.tif => image with segmentation after reconstruction
-  - 221212_6_labeled.csv => cell positions and average intensity on different channels in nucleus masks
-  - CD45_NN_classification.csv => result of neural network classification of CD45
-	- Kit_NN_classification => result of neural network classification of KIT
-  - 221212_6_classified.csv => result of cell classification
-	- border_selection => manual selection of border cells with Coloriage
-  - vessels_selection => manual selection of vessel with Coloriage
-	- cells_to_remove => autofluorescent cells and disrupted regions manually selected with Coloriage
-	- 221212_6_classified_corrected.csv => result of cell classification after removing autofluorescent cells and disrupted regions
-  - 221212_6_napari.tif => file to drag and drop in napari (different channel order)
+  - 221212_6.tif: original image
+  - saucisson_00: pieces of original image with only nucleus / segmentation with Cellpose on each piece
+  - 221212_6_labeled.tif: image with segmentation after reconstruction
+  - 221212_6_labeled.csv: cell positions and average intensity on different channels in nucleus masks
+  - CD45_NN_classification.csv: result of neural network classification of CD45
+	- Kit_NN_classification: result of neural network classification of KIT
+  - 221212_6_classified.csv: result of cell classification
+	- border_selection: manual selection of border cells with Coloriage
+  - vessels_selection: manual selection of vessel with Coloriage
+	- cells_to_remove: autofluorescent cells and disrupted regions manually selected with Coloriage
+	- 221212_6_classified_corrected.csv: result of cell classification after removing autofluorescent cells and disrupted regions
+  - 221212_6_napari.tif: file to drag and drop in napari (different channel order)
   
 ### Code to reproduce figure - in folder **Code_figures**
 Scripts to reproduce main pannels from the article. Use data ... (PUT LINK HERE to repository) in folder **Data_figures** to go with it.
