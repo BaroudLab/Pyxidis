@@ -1,7 +1,6 @@
 numpy
 torch
 torchvision
-os
 copy
 time
 matplotlib
@@ -18,3 +17,5 @@ seaborn
 napari
 statannot
 scipy
+scikit-image
+pyqt6
