@@ -1,3 +1,3 @@
-# Introducing coloriage
+# Coloriage
 
-Coloriage is a quick tool to manually select regions from graphs. The tool is based on the Bokeh interractive plotting tool.
+*Coloriage* is a quick tool to manually select regions from graphs. The tool is based on the Bokeh interractive plotting tool.
