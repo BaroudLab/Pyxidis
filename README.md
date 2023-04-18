@@ -20,6 +20,7 @@ pip install .
 The library is now installed on your computer.
 
 For some application, you will need to install a napari plugin for griottes. You can do it directly in napari interface (Plugin > Install packages > napari-griottes). More documentation is provided here: https://github.com/BaroudLab/napari-griottes.
+A part of the analysis presented here rely on the use of *Griottes* tool. More documentation is provided here: https://github.com/BaroudLab/Griottes and in the corresponding article: [Griottes: a generalist tool for network generation from segmented tissue images](https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-022-01376-2).
 
 # Description of repository content
 This repository contains all steps to reproduce image analysis pipeline described in figure 2 of the article. It also contains notebooks to reproduce main pannels from the article. Some light csv files to run some notebooks on examples are provided directly in the Github repository. However, to get more complete example data to run all notebooks, please dowloaded using ... (PUT LINK HERE to repository).
@@ -31,9 +32,9 @@ This repository contains all steps to reproduce image analysis pipeline describe
   - **Visualization**: To evaluate good accuracy of segmentation and classification, it is convinient to have a graphical tool to overlap image and classification result. For this we use napari interface. Here, you can find notebooks to visualize result of classification overlayed with original 2D or 3D images using napari.
   
 - **src** containing useful packages that are automatically installed in the installation step:
-  - coloriage: a graphical tool to manually select cells in a graph representation of the tissue.
-  - saucisson: a set of functions to cut a big image in small pieces to allow parallel segmentation followed by reconstruction of the entire segmented image.
-  - plot_data: some function to allow easy visualization of classified data as dot plots.
+  - *coloriage*: a graphical tool to manually select cells in a graph representation of the tissue.
+  - *saucisson*: a set of functions to cut a big image in small pieces to allow parallel segmentation followed by reconstruction of the entire segmented image.
+  - *plot_data*: some function to allow easy visualization of classified data as dot plots.
 
 ### Image analysis steps (**Image_processing**)
 - Training Neural Network for cell classification based on membrane staining: **0-Training_network.ipynb**.
