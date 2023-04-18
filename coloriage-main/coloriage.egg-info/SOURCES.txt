@@ -1,9 +1,0 @@
-LICENSE
-setup.py
-coloriage/__init__.py
-coloriage/coloriage.py
-coloriage.egg-info/PKG-INFO
-coloriage.egg-info/SOURCES.txt
-coloriage.egg-info/dependency_links.txt
-coloriage.egg-info/requires.txt
-coloriage.egg-info/top_level.txt

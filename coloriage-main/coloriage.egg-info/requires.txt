@@ -1,4 +1,0 @@
-bokeh
-networkx
-numpy
-pip

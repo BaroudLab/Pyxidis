@@ -1,6 +1,5 @@
 import networkx as nx
 import numpy as np
-
 from bokeh.io import output_notebook  # prevent opening separate tab with graph
 from bokeh.io import show
 from bokeh.layouts import row
