@@ -19,3 +19,4 @@ statannot
 scipy
 scikit-image
 pyqt6
+bokeh
