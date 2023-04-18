@@ -1,6 +1,6 @@
 # FL-Image-Analysis
 
-This repository contains the main code to reproduce image and data analysis as well as figure pannels from the article "Spatiotemporal dynamics of cytokines expression dictate fetal liver hematopoiesis"
+This repository contains the main code to reproduce image and data analysis as well as figure panels from the article "Spatiotemporal dynamics of cytokines expression dictate fetal liver hematopoiesis"
 
 # Installation
 
@@ -23,7 +23,7 @@ For some application, you will need to install a napari plugin for griottes. You
 A part of the analysis presented here rely on the use of *Griottes* tool. More documentation is provided here: https://github.com/BaroudLab/Griottes and in the corresponding article: [Griottes: a generalist tool for network generation from segmented tissue images](https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-022-01376-2).
 
 # Description of repository content
-This repository contains all steps to reproduce image analysis pipeline described in figure 2 of the article. It also contains notebooks to reproduce main pannels from the article. Some light csv files to run some notebooks on examples are provided directly in the Github repository. However, to get more complete example data to run all notebooks, please dowloaded using ... (PUT LINK HERE to repository).
+This repository contains all steps to reproduce image analysis pipeline described in figure 2 of the article. It also contains notebooks to reproduce main panels from the article. Some light csv files to run some notebooks on examples are provided directly in the Github repository. However, to get more complete example data to run all notebooks, please dowloaded using ... (PUT LINK HERE to repository).
 
 ### The repository contains:
 - **Notebooks** containing:
