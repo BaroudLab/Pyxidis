@@ -9,7 +9,7 @@ We recommand to create a specific python environment to avoid any conflict in pa
 conda create --name FL_image_analysis python=3.8
 ```
 
-For the moment, only installation via the repository is possible, so you'll have to download it from the command line. In the command prompt enter:
+You need to install via the repository. In the command prompt enter:
 ```
 git clone https://github.com/BaroudLab/FL-Image-Analysis.git
 ```
