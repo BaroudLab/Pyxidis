@@ -8,8 +8,16 @@ We recommand to create a specific python environment to avoid any conflict in pa
 ```
 conda create --name FL_image_analysis python=3.8
 ```
-Install required packages listed in requirements.txt
-Install *Coloriage* graphical tool by navigating in the folder called "coloriage-main" and using command "pip install ."
+
+For the moment, only installation via the repository is possible, so you'll have to download it from the command line. In the command prompt enter:
+```
+git clone https://github.com/BaroudLab/FL-Image-Analysis.git
+```
+This should download the project. Then install the required packages. In the terminal, navigate to the package directory and type:
+```
+pip install .
+```
+The library is now installed on your computer.
 
 # Description of repository content
 This repository contains all steps to reproduce image analysis pipeline described in figure 2 of the article. Data to run these example can be dowloaded using ... (PUT LINK HERE to repository).
