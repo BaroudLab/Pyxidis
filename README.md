@@ -41,8 +41,8 @@ This repository contains all steps to reproduce image analysis pipeline describe
   - *saucisson*: a set of functions to cut a big image in small pieces to allow parallel segmentation followed by reconstruction of the entire segmented image.  
   
 <p align="center">
-<img src="images/illustration_saucisson.png" width="60%" height="60%">
-<img src="images/illustration_coloriage.png" width="20%" height="20%">
+<img src="images/illustration_saucisson.png" width="50%" height="50%">
+<img src="images/illustration_coloriage.png" width="40%" height="40%">
 </p>
 
 
