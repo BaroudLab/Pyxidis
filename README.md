@@ -2,6 +2,10 @@
 
 This repository contains the main code to reproduce image and data analysis as well as figure panels from the article "Spatiotemporal dynamics of cytokines expression dictate fetal liver hematopoiesis"
 
+<p align="center">
+<img src="images/general_illustration.png" width="60%" height="60%">
+</p>
+
 # Installation
 
 We recommand to create a specific python environment to avoid any conflict in package versions.
@@ -32,17 +36,32 @@ This repository contains all steps to reproduce image analysis pipeline describe
   - **Visualization**: To evaluate good accuracy of segmentation and classification, it is convinient to have a graphical tool to overlap image and classification result. For this we use napari interface. Here, you can find notebooks to visualize result of classification overlayed with original 2D or 3D images using napari.
   
 - **src** containing useful packages that are automatically installed in the installation step:
-  - *coloriage*: a graphical tool to manually select cells in a graph representation of the tissue.
-  - *saucisson*: a set of functions to cut a big image in small pieces to allow parallel segmentation followed by reconstruction of the entire segmented image.
   - *plot_data*: some function to allow easy visualization of classified data as dot plots.
+  - *coloriage*: a graphical tool to manually select cells in a graph representation of the tissue.
+  - *saucisson*: a set of functions to cut a big image in small pieces to allow parallel segmentation followed by reconstruction of the entire segmented image.  
+  
+<p align="center">
+<img src="images/illustration_saucisson.png" width="60%" height="60%">
+<img src="images/illustration_coloriage.png" width="20%" height="20%">
+</p>
+
 
 ### Image analysis steps (**Image_processing**)
 - Training Neural Network for cell classification based on membrane staining: **0-Training_network.ipynb**.
 - Cut images in pieces for parallel segmentation using CellPose on GPUs / rebuild segmented image: **1-Saucisson_preprocessing.ipynb**.
 - Classify cells using Neural Network: **2-Classifying_cells.ipynb**.
+
+<p align="center">
+<img src="images/NN_classification.png" width="60%" height="60%">
+</p>
+
 - Threshold for nuclear staining and gather all data: **3-Generating_final_data_file.ipynb**.
 - Removing disrupted regions and some typical spatial analysis: **4-Example_image_analysis.ipynb**.
 - Graph representation of the tissue and analysis of cells neighborhood: **5-Contact_on_graph_vs_random.ipynb**.
+
+<p align="center">
+<img src="images/graph_representation.png" width="30%" height="30%">
+</p>
 
 ### Description of data (PUT LINK HERE to repository)
 - **Example_dataset_CD45** contains example of a training / validation dataset to train neural network for CD45. It can be used with the notebook **0-Training_network.ipynb**. The resulting trained Neural Network is available in the folder **trained_networks**, along with other networks trained for other stainings and used for the image analysis in the article.
