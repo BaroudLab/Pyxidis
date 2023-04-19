@@ -2,7 +2,7 @@
 
 This repository contains the main code to reproduce image and data analysis as well as figure panels from the article "Spatiotemporal dynamics of cytokines expression dictate fetal liver hematopoiesis"
 
-It contains an integrated pipeline to segment large images, a deep-learning based approach for cell classification as well as a graph-based analysis of spatial structures. An interactive selection tool is also provided to manually anotate regions.
+It provides an integrated pipeline to segment large images, a deep-learning based approach for cell classification as well as a graph-based analysis of spatial structures. An interactive selection tool is also provided to manually anotate regions.
 
 <p align="center">
 <img src="images/general_illustration.png" width="60%" height="60%">
