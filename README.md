@@ -66,7 +66,7 @@ This repository contains all steps to reproduce image analysis pipeline (More de
 
 # Description of provided data
 ### Data for visualization (in Notebooks>Visualization>Data)
-Contain .csv files to examples to overlayed segmentation and classification over the original image with napari for a 2D and a 3D image for visual inspection
+Contain .csv files to overlayed segmentation and classification over the original image with napari for a 2D and a 3D image for visual inspection
   - data_example_2D.csv
   - data_example_3D.csv
   
