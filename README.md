@@ -26,19 +26,19 @@ pip install .
 ```
 The library is now installed on your computer.
 
-For some application, you will need to install a napari plugin for griottes. You can do it directly in napari interface (Plugin > Install packages > napari-griottes). More documentation is provided here: https://github.com/BaroudLab/napari-griottes.
+For some applications, you will need to install a napari plugin for griottes. You can do it directly in the interface of napari (Plugin > Install packages > napari-griottes). More documentation is provided here: https://github.com/BaroudLab/napari-griottes.
 A part of the analysis presented here rely on the use of *Griottes* tool. More documentation is provided here: https://github.com/BaroudLab/Griottes and in the corresponding article: [Griottes: a generalist tool for network generation from segmented tissue images](https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-022-01376-2).
 
 # Description of repository content
-This repository contains all steps to reproduce image analysis pipeline (More description can be find in Fig2 and Methods of the article). Some light csv files to run some notebooks on examples are provided directly in the Github repository. Images files can be downloaded from Zenodo (DOI:10.5281/zenodo.7867025).
+This repository contains all steps to reproduce image analysis pipeline (More description can be found in Fig2 and Methods of the article). Data files to run notebooks on examples are provided directly in the Github repository. Images can be downloaded from Zenodo (DOI:10.5281/zenodo.7867025).
 
 ### The repository contains:
-- **Notebooks** containing:
-  - **Image_processing**: step by step tutorial to reproduce the entire image analysis pipeline described in figure 2 of the article as well as the main type of data analysis done in the article. csv and txt files are provided in **Data** to reproduce data analysis steps (notebooks 4 and 5), images are on Zenodo.
-  - **Visualization**: To evaluate good accuracy of segmentation and classification, it is convinient to have a graphical tool to overlap image and classification result. For this we use napari interface. Here, you can find notebooks to visualize result of classification overlayed with original 2D or 3D images using napari. csv files are also provided for these notebooks in a folder called **Data** and images on Zenodo.
+- **Notebooks**:
+  - **Image_processing**: step by step tutorial to Pyxidis as well as the main type of data analysis. csv and txt files are provided in **Data** to run notebooks 4 and 5 on an example and corresponding images are on Zenodo.
+  - **Visualization**: To evaluate good accuracy of segmentation and classification, it is convinient to have a graphical tool to overlap images and classification results. For this we use napari interface. Here, you can find notebooks to do it on 2D and 3D examples. csv files are also provided for these notebooks in a folder called **Data** and images on Zenodo.
   
-- **src** containing useful packages that are automatically installed in the installation step:
-  - *plot_data*: some function to allow easy visualization of classified data as dot plots.
+- **src**: useful packages that are automatically installed in the installation step:
+  - *plot_data*: some functions to allow easy visualization of classified data as dot plots.
   - *coloriage*: a graphical tool to manually select cells in a graph representation of the tissue.
   - *saucisson*: a set of functions to cut a big image in small pieces to allow parallel segmentation followed by reconstruction of the entire segmented image.  
   
@@ -56,8 +56,8 @@ This repository contains all steps to reproduce image analysis pipeline (More de
 <img src="images/NN_classification.png" width="60%" height="60%">
 </p>
 
-- Threshold for nuclear staining and gather all data: **3-Generating_final_data_file.ipynb**.
-- Removing disrupted regions and some typical spatial analysis: **4-Example_image_analysis.ipynb**.
+- Threshold for nuclear staining and gather all data from classification steps: **3-Generating_final_data_file.ipynb**.
+- Some typical spatial analysis: **4-Example_image_analysis.ipynb**.
 - Graph representation of the tissue and analysis of cells neighborhood: **5-Contact_on_graph_vs_random.ipynb**.
 
 <p align="center">
@@ -66,7 +66,7 @@ This repository contains all steps to reproduce image analysis pipeline (More de
 
 # Description of provided data
 ### Data for visualization (in Notebooks>Visualization>Data)
-Contain .csv files to overlayed segmentation and classification over the original image with napari for a 2D and a 3D image for visual inspection
+Contain .csv files to overlayed segmentation and classification over the original image with napari on a 2D and 3D images for visual inspection
   - data_example_2D.csv
   - data_example_3D.csv
   
