@@ -1,4 +1,4 @@
-# FL-Image-Analysis
+# Pyxidis
 
 This repository contains the main code to reproduce image and data analysis as well as figure panels from the article "Spatiotemporal dynamics of cytokines expression dictate fetal liver hematopoiesis"
 
