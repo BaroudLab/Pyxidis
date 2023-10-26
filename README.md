@@ -3,7 +3,7 @@
 Here we present **Pyxidis**, an integrated pipeline to build a graph-based representation of large 2D and 3D tissue microscopy images. It incorporates a tool to allows segmentation of large images (cutting them in small tiles for parallel computation and reconstruction of the image), a deep-learning based approach for cell classification as well as a graph-based analysis of spatial structures. An interactive selection tool is also provided to manually anotate regions.
 Pyxidis is described and used in the article "Spatiotemporal dynamics of cytokines expression dictate fetal liver hematopoiesis". This analysis pipeline and type of data analysis can be extended to large variety of images of biological tissues.
 
-This repository contains a step by step tutorial to use this pipeline as well as example data to run main operations. Example images can be dowloaded from our Zenodo repository (DOI:10.5281/zenodo.7867025).
+This repository contains a step by step tutorial to use this pipeline as well as example data to run main operations. Example images can be dowloaded from our Zenodo repository [DOI:10.5281/zenodo.7867025](https://zenodo.org/record/7867025).
 
 <p align="center">
 <img src="images/general_illustration.png" width="60%" height="60%">
