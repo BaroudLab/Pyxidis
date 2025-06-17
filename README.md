@@ -81,7 +81,7 @@ Contain .csv files to overlayed segmentation and classification over the origina
   - autofluorescent_cells.txt: autofluorescent cells to remove detected using neural network.
   - manual_selection_cells_to_remove.txt: disrupted regions manually selected with Coloriage.
 
-### Data on Zenodo (DOI:10.5281/zenodo.7867025)
+### Data on Zenodo [DOI:10.5281/zenodo.7867025](https://zenodo.org/record/7867025)
   - 221212_6.tif: original image (containing 2 membrane stainings (CD45 and KIT) and a nuclear staining (LHX2)
   - 221212_6_labeled.tif: image with segmentation after reconstruction.
   - 221212_6_napari.tif: file to drag and drop in napari (different channel order).
